@@ -1,0 +1,23 @@
+{
+    "project": {
+        "name": "vue",
+        "version": "v0.0.1",
+        "description": "",
+        "author": "",
+        "email": "",
+        "license": "DEWC Proprietary Licence",
+        "organization": "DEWC Services"
+    },
+    "repository": {
+        "type": "git",
+        "url": "dewcservices@dewcservices.ghe.com:dewcless-official/vue_upskilling"
+    },
+    "directories": {
+        "src": "src",
+        "tests": "tests",
+        "docs": "docs"
+    },
+    "metadata": {
+        "created_at": "07/01/2026"
+    }
+}

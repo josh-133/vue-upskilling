@@ -1,0 +1,11 @@
+name: DEWCLess Dev CI Workflow
+
+on:
+  pull_request:
+    branches: ['main', '*sprint*',]
+
+jobs:
+  DEWCLess-CI:
+    uses: dewcless-official/ghec-ci-config/.github/workflows/reusable-dev.yml@main
+    secrets:
+      submodule_token: ${{ secrets.DEWCLESS_REPOS }}

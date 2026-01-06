@@ -1,0 +1,22 @@
+DEWC PROPRIETARY LICENCE
+Licence Name: DEWC Proprietary Licence
+Version: 1.0
+Effective Date: 25 August 2025
+Authorising Entities: Office of the Chief Technology Officer (CTO) & Deputy Chief Operating Officer (DCOO), DEWC
+1. Grant of Licence
+This licence grants internal DEWC personnel the right to use, modify, and distribute the licensed software solely within the DEWC organisation. No rights are granted for external use, distribution, or disclosure.
+2. Confidentiality and Disclosure
+All information, source code, documentation, and related materials associated with the licensed software are classified as confidential. Disclosure of any part of the software or its associated materials to external parties is strictly prohibited unless:
+-	The recipient has executed a valid Non-Disclosure Agreement (NDA) with DEWC; and
+-	The recipient has been formally authorised by CTO or DCOO and has a verified need-to-know.
+3. Restrictions
+The licensee shall not:
+-	Communicate, publish, or otherwise disclose any part of the software or its documentation outside of DEWC without prior written approval from CTO.
+-	Use the software for any purpose other than that explicitly authorised by DEWC.
+-	Grant sublicences or transfer rights under this licence to any third party.
+4. Access Control
+Access to the software must be restricted to authorised DEWC personnel only. All repositories and storage locations must implement appropriate access controls and audit logging.
+5. Compliance and Enforcement
+DEWC reserves the right to audit usage and access to the software to ensure compliance with this licence. Breach of this licence may result in disciplinary action and/or legal proceedings.
+6. Termination
+This licence may be terminated by CEO, DCOO or CIO at any time if the licensee fails to comply with its terms. Upon termination, all copies of the software must be destroyed or returned to OCIO.

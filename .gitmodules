@@ -1,0 +1,3 @@
+[submodule ".devcontainer"]
+	path = .devcontainer
+	url = dewcservices@dewcservices.ghe.com:dewcless-official/vscode-frontend-devcontainer.git

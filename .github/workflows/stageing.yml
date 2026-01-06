@@ -1,0 +1,11 @@
+name: DEWCLess Staging CI Workflow
+
+on:
+  push:
+    branches: ['main', 'production']
+
+jobs:
+  DEWCLess-CI:
+    uses: dewcless-official/ghec-ci-config/.github/workflows/reusable-staging.yml@main
+    secrets:
+      submodule_token: ${{ secrets.DEWCLESS_REPOS }}

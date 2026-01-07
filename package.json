@@ -8,7 +8,6 @@
     "start": "",
     "dev": "",
     "build": "",
-    
     "test:ci": "vitest --run --coverage"
   },
   "keywords": [
@@ -17,5 +16,6 @@
   "author": "Your Name",
   "license": "DEWC PROPRIETARY LICENCE",
   "dependencies": {
+    "axios": "^1.13.2"
   }
 }

@@ -1,5 +1,6 @@
 <script setup>
-  import EventService from '@/services/EventService';
+  import router from '@/router';
+import EventService from '@/services/EventService';
   import { onMounted, ref, computed } from 'vue';
 
   const props = defineProps(["id"])
@@ -11,8 +12,18 @@
         .then(response => {
           event.value = response.data;
         })
-        .catch(error => {
-          console.error('Error fetching events:', error);
+        .catch((error) => {
+          if (error.response && error.response.status === 404) {
+            router.push({
+              name: '404Resource',
+              params: { resource: 'event' }
+            });
+            return;
+          } else {
+            router.push({
+              name: 'NetworkError',
+            })
+          }
         });
   })
 </script>
